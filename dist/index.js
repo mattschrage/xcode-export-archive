@@ -68,7 +68,7 @@ const exportArchive = async ({archivePath, exportMethod, exportPath}) => {
     };
 
     // TODO This should probably be stored in some temporary directory
-    fs.writeFileSync("exportOptions.plist", plist.build(exportOptions));
+    //fs.writeFileSync("exportOptions.plist", plist.build(exportOptions));
 
     // Execute xcodebuild -exportArchive
 
